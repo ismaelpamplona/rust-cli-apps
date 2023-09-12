@@ -7,7 +7,11 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.75"
+assert_cmd = "2.0.12"
+assert_fs = "1.0.13"
 clap = { version = "4.4.2", features = ["derive"] }
 env_logger = "0.10.0"
 indicatif = "0.17.6"
 log = "0.4.20"
+predicates = "3.0.3"
+termimad = "0.25.2"
